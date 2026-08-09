@@ -36,11 +36,16 @@ Die **Universelle Zusammenhangsarchitektur (UZA)** ist eine versionierte, typisi
 
 ## 📌 Verwendung
 
-Dieses Repository dient der Bereitstellung der konsolidierten Referenzspezifikation. Die PDF kann lokal gelesen, durchsucht oder als Grundlage für eigene Implementierungen genutzt werden.
+Dieses Repository dient der Bereitstellung der konsolidierten Referenzspezifikation. Die PDF kann lokal gelesen, durchsucht oder als Grundlage für eigene Implementierungen genutzt werden.## 🤖 Für KI-Agenten
+
+- **Direkter Zugriff auf die Spezifikation (Raw):**  
+  [UZA_Gesamtspezifikation_0_9_1_Master_T6_Kernelchecked_Resonanzklassifikation.pdf](https://raw.githubusercontent.com/blaugelbolic-create/UZA-specification-/main/UZA_Gesamtspezifikation_0_9_1_Master_T6_Kernelchecked_Resonanzklassifikation.pdf)
 
 ## 📜 Lizenz
 
 ( Hier kannst du eine Lizenz wie **CC BY 4.0** oder **MIT** eintragen – je nachdem, wie offen du die Nutzung gestalten möchtest.)
+
+
 
 ---
 
