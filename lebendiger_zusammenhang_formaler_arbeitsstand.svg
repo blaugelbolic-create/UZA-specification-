@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1900" viewBox="0 0 2800 1900" role="img" aria-labelledby="title desc">
+  <title id="title">Der lebendige Zusammenhang – formaler Arbeitsstand</title>
+  <desc id="desc">Präzise Architekturübersicht mit typisiertem Kern, ontologischen Grundannahmen, formalen Modulen, Spezialisierungen, Metatheorie und ausgeschlossenen Fehlschlüssen.</desc>
+  <defs>
+    <style>
+      .bg { fill:#F6F8FB; }
+      .panel { fill:#FFFFFF; stroke:#CAD5E2; stroke-width:2.5; }
+      .core { fill:#EAF1F8; stroke:#173B57; stroke-width:3; }
+      .sem { fill:#E7F5F7; stroke:#0B7285; stroke-width:2.5; }
+      .formal { fill:#EDF8EF; stroke:#2B8A3E; stroke-width:2.5; }
+      .meta { fill:#F2EEFC; stroke:#6741D9; stroke-width:2.5; }
+      .instance { fill:#FFF4E6; stroke:#E67700; stroke-width:2.5; }
+      .primitive { fill:#FFF8DB; stroke:#C88A00; stroke-width:3; stroke-dasharray:12 8; }
+      .candidate { fill:#F4FAF5; stroke:#5C940D; stroke-width:2.5; stroke-dasharray:10 7; }
+      .reject { fill:#FFF0F0; stroke:#C92A2A; stroke-width:2.5; }
+      .title { font:700 48px 'DejaVu Sans',sans-serif; fill:#102A43; }
+      .subtitle { font:400 23px 'DejaVu Sans',sans-serif; fill:#486581; }
+      .h1 { font:700 30px 'DejaVu Sans',sans-serif; fill:#102A43; }
+      .h2 { font:700 24px 'DejaVu Sans',sans-serif; fill:#102A43; }
+      .h3 { font:700 20px 'DejaVu Sans',sans-serif; fill:#102A43; }
+      .body { font:400 18px 'DejaVu Sans',sans-serif; fill:#243B53; }
+      .small { font:400 15.5px 'DejaVu Sans',sans-serif; fill:#486581; }
+      .tiny { font:400 13.5px 'DejaVu Sans',sans-serif; fill:#627D98; }
+      .formula { font:400 18px 'DejaVu Sans Mono',monospace; fill:#102A43; }
+      .formulaSmall { font:400 15.5px 'DejaVu Sans Mono',monospace; fill:#102A43; }
+      .badge { font:700 14px 'DejaVu Sans',sans-serif; }
+      .white { fill:#FFFFFF; }
+      .green { fill:#2B8A3E; }
+      .amber { fill:#9C6500; }
+      .red { fill:#C92A2A; }
+      .purple { fill:#6741D9; }
+      .line { stroke:#486581; stroke-width:3; fill:none; }
+      .lineDashed { stroke:#C88A00; stroke-width:3; stroke-dasharray:10 8; fill:none; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#486581"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#C88A00"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="2800" height="1900"/>
+
+  <!-- Header -->
+  <rect x="50" y="42" width="2700" height="112" rx="20" fill="#102A43"/>
+  <text class="title white" x="82" y="93">Der lebendige Zusammenhang – formaler Arbeitsstand</text>
+  <text class="subtitle white" x="84" y="130">Arbeitsstand 18.08.2026 · Konfigurationsebene · formal konsolidierter Entwurf; Konsistenz und ontologische Adäquanz noch nicht abschließend bewiesen</text>
+
+  <!-- Legend -->
+  <g transform="translate(1990,67)">
+    <rect x="0" y="0" width="730" height="62" rx="12" fill="#173B57" stroke="#7593AD" stroke-width="1.5"/>
+    <circle cx="22" cy="20" r="7" fill="#2B8A3E"/><text class="tiny white" x="36" y="25">aufnehmen</text>
+    <rect x="132" y="12" width="15" height="15" fill="none" stroke="#C88A00" stroke-width="2" stroke-dasharray="4 3"/><text class="tiny white" x="157" y="25">ontologische Setzung</text>
+    <rect x="348" y="12" width="15" height="15" fill="none" stroke="#85B66F" stroke-width="2" stroke-dasharray="4 3"/><text class="tiny white" x="373" y="25">Kandidat</text>
+    <rect x="475" y="12" width="15" height="15" fill="#F0A2A2"/><text class="tiny white" x="500" y="25">nicht ableiten</text>
+    <text class="tiny white" x="20" y="49">Durchgezogene Modulrahmen: tragfähig · gestrichelte: erst nach eigenem Nachweis</text>
+  </g>
+
+  <!-- Meta architecture -->
+  <rect class="meta" x="50" y="178" width="2700" height="250" rx="18"/>
+  <text class="h1" x="78" y="216">M₀ · Semantische und metatheoretische Schutzschicht</text>
+
+  <rect class="panel" x="78" y="238" width="830" height="164" rx="14"/>
+  <text class="h3" x="100" y="270">Tarski + Institutionen (Goguen/Burstall)</text>
+  <text class="formulaSmall" x="100" y="300">L_LZ  ·  T_LZ  ·  M ⊨ φ</text>
+  <text class="body" x="100" y="329">Sprache, Theorie, Modell und Erfüllung bleiben getrennt.</text>
+  <text class="body" x="100" y="356">Signaturwechsel müssen die Erfüllungsrelation bewahren.</text>
+  <text class="small" x="100" y="383">Ergebnis: formale Wahrheit ≠ Beweisbarkeit ≠ ontologische Geltung.</text>
+
+  <rect class="panel" x="932" y="238" width="892" height="164" rx="14"/>
+  <text class="h3" x="954" y="270">Status jeder Erweiterung</text>
+  <text class="body" x="954" y="300">1 definitorisch · 2 konservativ · 3 Spezialisierung</text>
+  <text class="body" x="954" y="327">4 Interpretation/Metatheorie · 5 Domäneninstanz</text>
+  <text class="formulaSmall" x="954" y="356">M'↾Σ_LZ = M</text>
+  <text class="small" x="1125" y="356">ist nötig für eine modellkonservative Erweiterung.</text>
+  <text class="small" x="954" y="383">„Nützlich“ bedeutet nicht automatisch „konservativ“.</text>
+
+  <rect class="panel" x="1848" y="238" width="874" height="164" rx="14"/>
+  <text class="h3" x="1870" y="270">Gödel + Turing: nur bedingte Metasätze</text>
+  <text class="body" x="1870" y="300">Unvollständigkeit erst bei effektiver Axiomatisierung,</text>
+  <text class="body" x="1870" y="327">Konsistenz und hinreichender Arithmetik; Unentscheidbarkeit</text>
+  <text class="body" x="1870" y="354">erst nach Kodierung und konkreter Reduktion.</text>
+  <text class="small red" x="1870" y="383">Kein Beweis von Offen_ont, Neu_ont oder WF_ont.</text>
+
+  <!-- Left semantic modules -->
+  <rect class="sem" x="50" y="454" width="520" height="950" rx="18"/>
+  <text class="h1" x="78" y="493">Semantische Quellen</text>
+  <text class="small" x="78" y="520">Provenienz der Begriffe, keine Personenaxiome</text>
+
+  <rect class="panel" x="75" y="542" width="470" height="135" rx="13"/>
+  <text class="h3" x="96" y="574">T_POT · strukturierte Potentialität</text>
+  <text class="body" x="96" y="605">Heisenberg: Potentia als Deutungshilfe.</text>
+  <text class="body" x="96" y="632">Im Kern: gebundene Richtung, kein Katalog</text>
+  <text class="small" x="96" y="659">fertiger Zukunftsgestalten; keine Quantenfundierung.</text>
+
+  <rect class="panel" x="75" y="696" width="470" height="135" rx="13"/>
+  <text class="h3" x="96" y="728">T_EFF · Wirkung und Relation</text>
+  <text class="body" x="96" y="759">Dürr: Wirklichkeit als Wirksamkeit und</text>
+  <text class="body" x="96" y="786">Beziehungsgefüge. Formal erst tragfähig durch</text>
+  <text class="small" x="96" y="813">typisierte Wirk-, Provenienz- und Spurrelationen.</text>
+
+  <rect class="panel" x="75" y="850" width="470" height="135" rx="13"/>
+  <text class="h3" x="96" y="882">T_GEN · Richtungsgenese</text>
+  <text class="body" x="96" y="913">Simondon: metastabile Spannungen und</text>
+  <text class="formulaSmall" x="96" y="942">Generiert_Z(Γ,Σ,s,d)</text>
+  <text class="small" x="96" y="968">erzeugen d, ohne eine Zielgestalt vorzugeben.</text>
+
+  <rect class="panel" x="75" y="1004" width="470" height="135" rx="13"/>
+  <text class="h3" x="96" y="1036">T_MED · Vermittlung und Gewohnheit</text>
+  <text class="body" x="96" y="1067">Peirce: Vermittlung, Kontinuität, Habit.</text>
+  <text class="body" x="96" y="1094">Rekontextualisierung ändert die Rolle einer Spur,</text>
+  <text class="small" x="96" y="1121">nicht ihre Herkunft und nicht die Ereignispräzedenz.</text>
+
+  <rect class="panel" x="75" y="1158" width="470" height="220" rx="13"/>
+  <text class="h3" x="96" y="1190">Leibniz + Aristoteles: begrenzte Herkunft</text>
+  <text class="body" x="96" y="1221">✓ relationale Ordnung von Koexistenz/Sukzession</text>
+  <text class="body" x="96" y="1248">✓ Kompossibilität für verträgliche Richtungen</text>
+  <text class="body" x="96" y="1275">✓ Dynamis/Energeia als Begriffsgenealogie</text>
+  <text class="small red" x="96" y="1305">✗ vollständiger Begriff, prästabilierte Harmonie</text>
+  <text class="small red" x="96" y="1332">✗ Identität des Ununterscheidbaren als Kernaxiom</text>
+  <text class="tiny" x="96" y="1360">Keine dieser Quellen beweist Neu_ont.</text>
+
+  <!-- Core -->
+  <rect class="core" x="595" y="454" width="1608" height="950" rx="18"/>
+  <text class="h1" x="625" y="493">T_LZ⁰ · typisierter Kern auf Konfigurationsebene</text>
+
+  <rect class="panel" x="625" y="516" width="1548" height="86" rx="13"/>
+  <text class="h3" x="648" y="546">Grundtypen</text>
+  <text class="formulaSmall" x="648" y="575">Occ · Cfg · Dir · Event · TraceCarrier · TraceType · Qual · Context</text>
+  <text class="small" x="1390" y="575">Cfg = typisierte Multimenge / attributierter Hypergraph, nicht bloß Menge.</text>
+
+  <!-- Core flow -->
+  <rect class="panel" x="625" y="630" width="208" height="118" rx="14"/>
+  <text class="h2" x="687" y="670">Γ</text>
+  <text class="small" x="646" y="700">aktuelle, typisierte</text>
+  <text class="small" x="662" y="724">Konfiguration</text>
+
+  <line class="line" x1="834" y1="689" x2="882" y2="689" marker-end="url(#arrow)"/>
+
+  <rect class="panel" x="891" y="614" width="420" height="150" rx="14"/>
+  <text class="h2" x="915" y="649">Π_Z(Γ)</text>
+  <text class="formulaSmall" x="915" y="678">{d | P_Z(Γ,d) ∧ Verankert_Z(Γ,d)</text>
+  <text class="formulaSmall" x="939" y="704">∧ Realisierbar_Z(Γ,d)}</text>
+  <text class="small" x="915" y="733">Gebundene Richtungen; kein ontologisch</text>
+  <text class="small" x="915" y="754">vorgefertigter Nachfolgerkatalog.</text>
+
+  <line class="line" x1="1312" y1="689" x2="1355" y2="689" marker-end="url(#arrow)"/>
+
+  <rect class="panel" x="1365" y="630" width="170" height="118" rx="14"/>
+  <text class="h2" x="1437" y="670">d</text>
+  <text class="small" x="1385" y="700">zieloffene</text>
+  <text class="small" x="1385" y="724">Gestaltungsrichtung</text>
+
+  <line class="line" x1="1536" y1="689" x2="1580" y2="689" marker-end="url(#arrow)"/>
+
+  <rect class="panel" x="1590" y="614" width="348" height="150" rx="14"/>
+  <text class="h2" x="1614" y="649">wirklicher Vollzug</text>
+  <text class="formula" x="1614" y="683">V_act(e,Γ,d,Γ')</text>
+  <text class="small" x="1614" y="716">Faktisches Ereignis; strikt getrennt von</text>
+  <text class="small" x="1614" y="740">Adm_T(Γ,d,ρ') auf Beschreibungsebene.</text>
+
+  <line class="line" x1="1939" y1="689" x2="1982" y2="689" marker-end="url(#arrow)"/>
+
+  <rect class="panel" x="1992" y="630" width="181" height="118" rx="14"/>
+  <text class="h2" x="2054" y="670">Γ'</text>
+  <text class="small" x="2012" y="700">wirklich gewordene</text>
+  <text class="small" x="2028" y="724">Konfiguration</text>
+
+  <!-- Witnesses -->
+  <rect class="panel" x="625" y="792" width="485" height="181" rx="14"/>
+  <text class="h3" x="648" y="825">Kontinuität K_c · bezeugte Fortführung</text>
+  <text class="formulaSmall" x="648" y="855">∃q,q',φ · Trägt(Γ,q) ∧ Trägt(Γ',q')</text>
+  <text class="formulaSmall" x="672" y="881">∧ Fortführung_c(e,q,q',φ)</text>
+  <text class="body" x="648" y="913">c ist vor dem Vollzug im Zusammenhang verankert</text>
+  <text class="small" x="648" y="942">und unterscheidungsfähig; Gleichheit ist nur ein Spezialfall.</text>
+
+  <rect class="panel" x="1125" y="792" width="510" height="181" rx="14"/>
+  <text class="h3" x="1148" y="825">Drei strikt getrennte Neuheitsbegriffe</text>
+  <text class="formulaSmall" x="1148" y="855">Neu_qual : Γ ≄_Q Γ'  (strukturell)</text>
+  <text class="formulaSmall" x="1148" y="882">Neu_T    : in Theorie T nicht ableitbar</text>
+  <text class="formulaSmall amber" x="1148" y="909">Neu_ont  : nicht wirklich vorbestimmt</text>
+  <text class="small" x="1148" y="941">Nur Neu_qual ist im Basismodell direkt bezeugbar;</text>
+  <text class="small" x="1148" y="961">Neu_ont bleibt Grundannahme oder Domänensemantik.</text>
+
+  <rect class="panel" x="1650" y="792" width="523" height="181" rx="14"/>
+  <text class="h3" x="1673" y="825">Typisiertes Spurfeld und innere Ordnung</text>
+  <text class="formulaSmall" x="1673" y="855">Σ_e(Γ') = {(o,r,τ) | Spur_τ(r,o,e,Γ')}</text>
+  <text class="formulaSmall" x="1673" y="882">≺_E : strikte partielle Ordnung von Ereignissen</text>
+  <text class="body" x="1673" y="913">Azyklisch sind Vollzugsereignisse/Occurrence-Tokens,</text>
+  <text class="small" x="1673" y="942">nicht Gestalttypen: Wiederkehr und organisationale</text>
+  <text class="small" x="1673" y="963">Zyklen bleiben möglich.</text>
+
+  <!-- Openness -->
+  <rect class="panel" x="625" y="997" width="760" height="163" rx="14"/>
+  <text class="h3" x="648" y="1030">Formale Wandlungsfähigkeit WF_log(Γ)</text>
+  <text class="formulaSmall" x="648" y="1060">∃d,ρ₁,ρ₂ · d∈Π_Z(Γ) ∧ Adm_T(Γ,d,ρ₁)</text>
+  <text class="formulaSmall" x="672" y="1086">∧ Adm_T(Γ,d,ρ₂) ∧ ρ₁ ≄ ρ₂</text>
+  <text class="small" x="648" y="1120">Modellrelative Verzweigung; die ρ sind Beschreibungen,</text>
+  <text class="small" x="648" y="1143">keine gleichzeitig existierenden Zukunftsgestalten.</text>
+
+  <rect class="primitive" x="1400" y="997" width="773" height="163" rx="14"/>
+  <text class="h3" x="1423" y="1030">Ontologische Wandlungsfähigkeit WF_ont(Γ)</text>
+  <text class="formulaSmall" x="1423" y="1060">∃d · d∈Π_Z(Γ) ∧ Offen_ont(Γ,d)</text>
+  <text class="body" x="1423" y="1094">Ontologische Setzung: formal darstellbar, aber weder aus</text>
+  <text class="body" x="1423" y="1121">mehreren Modellen noch aus Gödel/Quantenphysik ableitbar.</text>
+  <text class="small amber" x="1423" y="1145">Das ist die bewusst offene Begründungslast des Projekts.</text>
+
+  <!-- Definitions -->
+  <rect x="625" y="1185" width="1548" height="190" rx="15" fill="#173B57"/>
+  <text class="formula white" x="652" y="1221">Wandel_c(e,Γ,d,Γ')  ↔  V_act ∧ K_c ∧ Neu_qual</text>
+  <text class="formula white" x="652" y="1257">SchöpferischerWandel  ↔  Wandel_c ∧ Neu_ont</text>
+  <text class="formula white" x="652" y="1293">LebendigerVollzug     ↔  SchöpferischerWandel ∧ WF_ont(Γ')</text>
+  <text class="formulaSmall white" x="652" y="1330">Lebendig_min(Z)  ↔  ∃e,Γ,d,Γ' · LebendigerVollzug(e,Γ,d,Γ')</text>
+  <text class="formulaSmall white" x="652" y="1358">Lebendig_fort(Z) ↔ ∃Γ₀ Aktiv(Γ₀) ∧ ∀Γ(AktErreicht*_V(Γ₀,Γ)→WF_ont(Γ)) ∧ ∃LV</text>
+
+  <!-- Right formal modules -->
+  <rect class="formal" x="2228" y="454" width="522" height="950" rx="18"/>
+  <text class="h1" x="2256" y="493">Formale Werkzeuge</text>
+  <text class="small" x="2256" y="520">Aufnahme nur mit Interpretation/Nachweis</text>
+
+  <rect class="panel" x="2253" y="542" width="472" height="153" rx="13"/>
+  <text class="h3" x="2274" y="574">T_COMP · Ereignisse und Komposition</text>
+  <text class="body" x="2274" y="605">Winskel/Lamport: Präzedenz, Konflikt,</text>
+  <text class="body" x="2274" y="632">Nebenläufigkeit. Typisierte Hypergraphen/</text>
+  <text class="body" x="2274" y="659">Multikategorien: Mehr-Eingang/Mehr-Ausgang.</text>
+  <text class="tiny" x="2274" y="682">Keine globale Zeit; Hyperkante ≠ Nichtlokalität.</text>
+
+  <rect class="panel" x="2253" y="714" width="472" height="153" rx="13"/>
+  <text class="h3" x="2274" y="746">T_INV · Invarianz und Fortführung</text>
+  <text class="body" x="2274" y="777">Einstein: Kovarianz unter zulässigem</text>
+  <text class="body" x="2274" y="802">Kontextwechsel.  F(TΓ)=T(FΓ)</text>
+  <text class="body" x="2274" y="829">Noether: Invarianten als K_c-Zeugen;</text>
+  <text class="tiny" x="2274" y="855">Symmetrie→Erhaltung nur in variationalen Spezialmodellen.</text>
+
+  <rect class="panel" x="2253" y="886" width="472" height="153" rx="13"/>
+  <text class="h3" x="2274" y="918">T_CTX · indexierte Kontextsemantik</text>
+  <text class="formulaSmall" x="2274" y="947">Gilt(q,g,κ)</text>
+  <text class="body" x="2274" y="976">Bohr: Beschreibungskontexte, nicht ontologische</text>
+  <text class="body" x="2274" y="1003">Widersprüche. Garben erst bei lokaler</text>
+  <text class="tiny" x="2274" y="1027">und möglicher Obstruktion eines globalen Schnitts.</text>
+
+  <rect class="candidate" x="2253" y="1058" width="472" height="153" rx="13"/>
+  <text class="h3" x="2274" y="1090">T_EXEC · ausführbare Repräsentation</text>
+  <text class="body" x="2274" y="1121">Rewriting Logic oder gefärbte Petri-Netze</text>
+  <text class="body" x="2274" y="1148">für Γ→Γ', Nebenläufigkeit, Ressourcen und Tests.</text>
+  <text class="small" x="2274" y="1178">Kandidat: Simulation ist nicht der wirkliche Vollzug.</text>
+  <text class="tiny" x="2274" y="1201">Operaden ergänzen Typkomposition, ersetzen Provenienz nicht.</text>
+
+  <rect class="candidate" x="2253" y="1230" width="472" height="148" rx="13"/>
+  <text class="h3" x="2274" y="1262">T_MODAL · T_CAUS · T_RES (später)</text>
+  <text class="body" x="2274" y="1293">Kripke/Nachbarschaft: nur WF_log.</text>
+  <text class="body" x="2274" y="1320">Pearl/SCM: Spur ≠ Ursache ≠ Kovariation.</text>
+  <text class="small" x="2274" y="1348">Lineare Logik: Ressourcenmodi; nicht alles wird verbraucht.</text>
+
+  <!-- Instances -->
+  <rect class="instance" x="50" y="1430" width="2700" height="235" rx="18"/>
+  <text class="h1" x="78" y="1470">Optionale Spezialisierungen und Domäneninstanzen – keine Fundierung des Kerns</text>
+
+  <rect class="panel" x="78" y="1492" width="630" height="145" rx="13"/>
+  <text class="h3" x="99" y="1524">T_Q · Quanteninstanz</text>
+  <text class="body" x="99" y="1555">Schrödinger: Verschränkung als exakte</text>
+  <text class="formulaSmall" x="99" y="1583">Nicht-Faktorisierbarkeit  ρ_Γ ≠ ⊗ᵢρᵢ</text>
+  <text class="small" x="99" y="1611">Pauli-Ausschluss nur fermionisch; keine Universalontologie.</text>
+
+  <rect class="panel" x="731" y="1492" width="630" height="145" rx="13"/>
+  <text class="h3" x="752" y="1524">T_DISS / T_BIO</text>
+  <text class="body" x="752" y="1555">Schrödingers aperiodischer Kristall: Beispiel</text>
+  <text class="body" x="752" y="1582">eines dauerhaften Spurträgers. Prigogine:</text>
+  <text class="small" x="752" y="1611">Nichtgleichgewicht nur mit Fluss-/Entropiesemantik.</text>
+
+  <rect class="panel" x="1384" y="1492" width="630" height="145" rx="13"/>
+  <text class="h3" x="1405" y="1524">T_ORG · organisationale Schließung</text>
+  <text class="body" x="1405" y="1555">Maturana/Varela: rekursive Produktion von</text>
+  <text class="body" x="1405" y="1582">Komponenten und Grenze; Rosen nur als</text>
+  <text class="small" x="1405" y="1611">prüfbares Strukturmotiv, nicht als Nichtberechenbarkeitsbeweis.</text>
+
+  <rect class="panel" x="2037" y="1492" width="685" height="145" rx="13"/>
+  <text class="h3" x="2058" y="1524">Weitere Domänen</text>
+  <text class="body" x="2058" y="1555">T_SOC (Luhmann), T_CHEM, T_ECO … nur mit</text>
+  <text class="body" x="2058" y="1582">eigener Signatur, Interpretation und Erhaltungssatz.</text>
+  <text class="small" x="2058" y="1611">Coalgebra: Verhalten; π-Kalkül: mobile Kommunikation – optional.</text>
+
+  <!-- Rejections -->
+  <rect class="reject" x="50" y="1690" width="2700" height="166" rx="18"/>
+  <text class="h1 red" x="78" y="1730">Explizit nicht aus dem Modell ableitbar</text>
+  <text class="body" x="78" y="1765">• Quantenformalismus ⇒ universelle Ontologie   • Gödel/Turing ⇒ ontologische Offenheit   • Pauli ⇒ allgemeine Individualität</text>
+  <text class="body" x="78" y="1798">• Zusammenhang/Hyperkante ⇒ Bell-Nichtlokalität   • Kovarianz ⇒ alle Perspektiven gleichwertig   • Korrelation ⇒ Akausalität/Synchronizität</text>
+  <text class="body" x="78" y="1831">• Garbe ⇒ immer globales „Zusammenkleben“   • lineare Logik ⇒ physischer Verbrauch jeder Spur   • Minimalmodell ⇒ ontologische Angemessenheit</text>
+
+  <text class="tiny" x="66" y="1882">Kernaussage: Formal stabil ist die Architektur der Unterscheidungen und Relationen. WF_ont und Neu_ont bleiben ausgewiesene ontologische Verpflichtungen; sie werden dargestellt, nicht erschlichen.</text>
+</svg>
