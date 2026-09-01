@@ -1,0 +1,27 @@
+UZA 0.9.1 K4 T1-T13 plus articulated interaction core
+Final clean build
+Recorded UTC: 2026-09-01T12:14:19Z
+Runtime: Isabelle2025-2
+Command:
+  isabelle build -c -D /workspace/scratch/24663cf25c52/UZA_K4_Interaction_Work -j 1 -o threads=1 -o parallel_proofs=0 UZA_0_9_1_Interaction
+
+Cleaned UZA_0_9_1_Core
+Cleaned UZA_0_9_1_T8
+Cleaned UZA_0_9_1_T9_T13
+Cleaned UZA_0_9_1_Interaction
+Building UZA_0_9_1_Core ...
+Finished UZA_0_9_1_Core (0:01:48 elapsed time, 0:01:48 cpu time, factor 1.00)
+Building UZA_0_9_1_T8 ...
+Finished UZA_0_9_1_T8 (0:00:12 elapsed time, 0:00:12 cpu time, factor 0.99)
+Building UZA_0_9_1_T9_T13 ...
+Finished UZA_0_9_1_T9_T13 (0:00:31 elapsed time, 0:00:31 cpu time, factor 1.00)
+Running UZA_0_9_1_Interaction ...
+Finished UZA_0_9_1_Interaction (0:00:05 elapsed time, 0:00:05 cpu time, factor 0.97)
+0:02:44 elapsed time, 0:02:38 cpu time, factor 0.96
+
+Exit code: 0
+Session count: 4
+Theory count: 29
+Proof escapes (sorry/oops/admit/axiomatization): 0
+A1-A22 status: unchanged locale assumptions
+Core SHA-256: 21dcfb175d6e754adf20042b941cf4a23329831d0165ebaf2023b0048213ed24

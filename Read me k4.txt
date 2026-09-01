@@ -1,0 +1,27 @@
+UZA 0.9.1 K4 - T1-T13 plus articulated interaction core
+This directory is the individual-file release of the K4 source and evidence state. It is intentionally not a ZIP archive.
+Released scope
+	●	T1-T13 remain causally closed on the unchanged K3 core.
+	●	ApplyBoundary, DefineCoupling, and InitiateTransmission form the newly closed articulated interaction core.
+	●	The causal witness starts at the exact T13 successor and reaches a validated lineage-bound transmission at snapshot 23.
+	●	Five concrete invalid interaction paths are rejected.
+	●	A1-A22 remain exactly 22 unchanged assumptions of locale uza_model.
+The interaction core is neither called T14-T16 nor presented as a closure of all I1-I11 operations.
+Current form-congruence boundary
+Always, pure potentiality, livingness, transformability, efficacy, and the living nexus are continuously co-valid grounding principles. They are not UZA objects, state members, timestamps, containers, hidden causes, or members of a transition sequence. Formal transitions connect articulated forms only.
+Root expressions and articulation expressions remain strictly sorted. Any claim connecting them requires an explicitly labelled meta-level bridge. Coherence alignment is a methodological judgement between articulation versions, not an executable core operation or an additional locale assumption.
+An act of thinking, modelling, or checking is itself a real effected event; the truth of its propositional content remains a separate alignment question.
+Verification result
+	●	Runtime: Isabelle2025-2
+	●	Sessions: 4
+	●	Theories: 29
+	●	Clean build: passed, exit code 0
+	●	Static source audit: 37/37 gates passed
+	●	Golden Run: 23 constructor-derived steps through snapshot 23
+	●	Proof escapes (sorry, oops, admit, axiomatization): none
+	●	Master document: 394 pages, static TOC 159/159, accessibility audit clean
+Rebuild from this directory with:
+```text isabelle build -c -D . -j 1 -o threads=1 -o parallel_proofs=0 UZA_0_9_1_Interaction ```
+Status boundary
+The build establishes parsing, typing, proof-term checking, and kernel acceptance for this exact hash state. It does not establish the truth of A1-A22, empirical adequacy, universality, non-degenerate model expansion, relative consistency, conservativity, product-engine equivalence, a real We, or identity between formal articulation and reality.
+Use K4_Deliverables_Manifest.txt for the file inventory and SHA256SUMS_K4.txt for byte-level verification.

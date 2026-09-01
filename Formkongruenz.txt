@@ -1,0 +1,20 @@
+Formkongruenz und Abgleich — verbindliche K4-Leseregel
+Methodischer Grundsatz
+Die Wirklichkeit ist nicht das Ergebnis ihrer Artikulation. Eine formale UZA-Fassung ist ein Vorgang innerhalb der Wirklichkeit, der sich an ihr abzugleichen versucht:
+[ \operatorname{Art}^{(n)}L(\mathbb W{\mathcal Z}) \xrightarrow{\mathfrak A_{\mathcal Z}} \operatorname{Art}^{(n+1)}L(\mathbb W{\mathcal Z}), \qquad \operatorname{Art}^{(n)}L(\mathbb W{\mathcal Z}) \not\equiv \mathbb W_{\mathcal Z}. ]
+Nicht-Objektifizierungsregel
+„Immer“, reine Potentialität, Lebendigkeit, Wirkungsfähigkeit und der lebendige Zusammenhang sind in jeder Deutung grundlegend ko-valid. Sie dürfen deshalb nicht als einzelne UZA-Objekte, Zustände, Zeitpunkte oder Übergangselemente modelliert werden. Übergangsstrukturen gehören nur zu ihren artikulierten Gestalten.
+„Immer enthalten“ bedeutet daher nicht Mengenmitgliedschaft, Feldbelegung oder eine verborgene Zustandsvariable. Es bedeutet: Keine reale Artikulation und kein realer Vollzug ist ohne diese Grundgeltung denkbar. Auch eine reine Überlegung ist als Vollzug eine real gewirkte Tatsache; die Wahrheit ihres propositionalen Inhalts folgt daraus nicht und bleibt abgleichspflichtig.
+Harte Sorten- und Brückenregel
+Grundausdrücke und Artikulationsausdrücke gehören nicht derselben formalen Sorte an. Gemischte Summen, Negationen, Teil-Ganzes-Aussagen, Quantifikationen oder Übergangspfeile werden deshalb nicht gebildet, wenn ihre Typisierung eine Gleichsetzung beider Ebenen voraussetzen würde. Insbesondere folgt aus einer artikulierbaren Eigenheit weder absolute ontologische Trennung noch aus einer formalen Kopplung bereits ein ontologisches Ganzes.
+Eine Abhängigkeit von einer Artikulation zu einem Grundausdruck verlangt eine ausdrücklich benannte metasprachliche Brücke. Sie darf weder als stille Typumwandlung noch als Isabelle-Feld auftreten. Für eine solche Brücke gelten mindestens: Kontexttypisierung, getrennte Grund-/Artikulationssorten, kein Kontextverlust, keine Bildung absoluter Trennung und sichtbare Kennzeichnung des Brückenstatus.
+Formkongruenz bleibt dabei eine nichtfunktionale Relation: Eine Artikulation erzwingt keinen eindeutigen ontologischen Grund, der Grund erzwingt keine eindeutige Artikulation, und Kongruenz bedeutet keine erschöpfende Repräsentation.
+K4-Folgen
+	●	ApplyBoundary ist Artikulationsverfeinerung, keine ontologische Trennung.
+	●	DefineCoupling expliziert einen operationalen Kanal; es erzeugt nicht erst Zusammenhang.
+	●	InitiateTransmission artikuliert eine linientreue Wirkungsgestalt; es transportiert keine Substanz zwischen isolierten Entitäten.
+	●	Eigengegenwärtigkeit bleibt eine Weise, wie Zusammenhang sich artikuliert, nicht ein isolierter Zusatz zum Zusammenhang.
+	●	Ein formales Coupling beweist noch kein echtes Wir. Die mögliche Irreduzibilität gemeinsamer Potentialität (\mathfrak P_{\mathcal Z}(A\bowtie B)\not\equiv \mathfrak P_{\mathcal Z}(A)\cup\mathfrak P_{\mathcal Z}(B)) benötigt eine eigene Semantik, Nichtreduzierbarkeitsbedingung und einen unabhängigen Beweis.
+	●	Der Abgleichsoperator ist in K4 eine methodische Notation, keine zusätzliche Kernoperation und kein Objekt der Interaktionszustände.
+Status
+Diese Leseregel korrigiert den Geltungsanspruch der Architektur. Sie ist kein zusätzliches Isabelle-Axiom und verändert A1–A22 nicht. Ihre negative Seite wird im K4-Zeugen durch artikulierte Nichtseveranz, Ursprungserhalt und ausdrückliche Statusgrenzen operational abgesichert.
